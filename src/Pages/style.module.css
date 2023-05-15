@@ -1,0 +1,40 @@
+.imageLayer{
+    position: relative;
+    /* background-color: red; */
+}
+
+.glassesLayer{
+    position: absolute;
+    top: 25%;
+    right: 39%;
+    opacity: 0.6;
+}
+.contentLayer{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+    width: 48%;
+    background-color: rgba(253,189,144,0.3);;
+}
+.contentLayer h1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.contentLayer h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.contentLayer p{
+    font-size: 13px;
+    font-weight: 400;
+}
+body{
+    background-image: url('/public/glassesImage/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ListGlasses{
+    background-color: aliceblue;
+    width: 100%;
+}
